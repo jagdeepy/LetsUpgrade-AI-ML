@@ -1,0 +1,64 @@
+Moive Theater -> 60 Show -> Show No: 01 to 60 -> Theater Head(Producer)
+
+Wilcoxson Sign Test -> To compare the 2 paired samples
+-------------------------------------------------------
+1st - 15 Days -> 30 TH -> Morning Shift -> S.No - 1 to 30
+              -> 30 TH -> Evening Shift -> S.No - 31 to 60
+
+16 - 30 Days -> 30 TH -> Evening Shift -> S.No - 1 to 30
+             -> 30 TH -> Morning Shift -> S.No - 31 to 60
+
+P<0.05 -> Reject H0
+P>0.05 -> Accept H0
+
+H0 -> There is no signinficant difference in BlockBuster Hit of the Movie initial and after 2 weeks
+HA -> There is signinficant difference in BlockBuster Hit of the Movie initial and after 2 weeks
+
+
+Freidman Test -> To compare more than 2 paired samples
+--------------------------------------------------------
+1st - 10 Days -> 20 TH ->Morning Shift -> S.No - 1 to 20
+              -> 20 TH ->Afternoon Shift -> S.No -21 to 40
+              -> 20 TH ->Evening Shift -> S.No 41 to 60
+
+11 - 20 Days -> 20 TH ->Afternoon Shift -> S.No - 1 to 20
+              -> 20 TH ->Evening Shift -> S.No -21 to 40
+              -> 20 TH ->Morning Shift -> S.No 41 to 60
+
+21st - 30 Days -> 20 TH ->Evening Shift -> S.No - 1 to 20
+              -> 20 TH ->Morning Shift -> S.No -21 to 40
+              -> 20 TH ->Afternoon Shift -> S.No 41 to 60 
+
+H0 -> There is no signinficant difference in BlockBuster Hit of the Movie initial and after 2 weeks and also 4th week
+HA -> There is signinficant difference in BlockBuster Hit of the Movie initial and after 2 weeks and also 4th week
+
+
+
+Here I am taking Prices ,Room( Room1, Room2, Room 3 ) and Building/Store Size Example.
+Mann Whitney Test -> To compare 2 independent Samples
+------------------------------------------------------
+1 -30 Days -> 20 TH -> Morning Shift only- 1 to 30
+           -> 30 TH -> Evening Shift only- 31 to 60
+
+H0 -> There is no signinficant difference in the proces of Room 1 and Room 2
+HA ->There is signinficant difference in the proces of Room 1 and Room 2
+
+
+
+Krushkal Wallis Test -> To compare more than 2 independent samples
+--------------------------------------------------------------------
+1 - 30 Days -> 20 TH -> Morning Shift Only - 1 to 20
+            -> 20 TH -> Afternoon Shift Only - 21 to 40
+            -> 20 TH -> Evening Shift Only - 41 to 60
+
+H0 -> There is no significant difference in the prices of Room 1, Room 2 and Room 3
+HA -> There is significant difference in the prices of Room 1, Room 2 and Room 3
+
+
+Chi Square Test -> To check the dependency of the variables. Variables should be categorical
+--------------------------------------------------------------------------
+Variables -> Gender -> Male(1) and Female(0)
+          -> Drinking -> Past Drinker(2), Current Drinker(1) and Non Drinker(0)
+
+H0 -> There is no dependency between Gender and Drinker
+HA -> There is dependency between Gender and Drinker
